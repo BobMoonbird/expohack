@@ -3,8 +3,8 @@ from builtins import isinstance
 import pickle
 
 import numpy as np
-import similarity
-import tool
+from . import similarity
+from . import tool
 
 
 class DataType:
